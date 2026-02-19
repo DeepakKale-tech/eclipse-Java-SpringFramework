@@ -8,14 +8,13 @@
            http://www.springframework.org/schema/context
            http://www.springframework.org/schema/context/spring-context.xsd">
 
-	<context:property-placeholder location="com/model/database.properties"/>
+	<context:property-placeholder location="com/deepak/mymavenpro/externalization/externalization/database.properties" />
 	
-	
-	<!--  <bean
+	<bean
 		class="org.springframework.context.support.PropertySourcesPlaceholderConfigurer">
 		<property name="location"
 			value="com/model/database.properties" />
-	</bean>-->
+	</bean>
 
 	<bean name="mydao" class="com.model.MyDao">
 		<constructor-arg>
