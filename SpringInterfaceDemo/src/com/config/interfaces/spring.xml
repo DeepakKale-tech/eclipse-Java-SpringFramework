@@ -11,14 +11,6 @@
            http://www.springframework.org/schema/util
            http://www.springframework.org/schema/util/spring-util.xsd">
 
-	<context:component-scan base-package="com.config.annotations"/>
-	
-	<util:list list-class="java.util.LinkedList" id="topics">
-	<value>Java</value>
-	<value>MongoDB</value>
-	<value>Android</value>
-	<value>Python</value>
-	<value>Swift</value>
-	</util:list>
+	<context:component-scan base-package="com.config.interfaces"/>
 
 </beans>

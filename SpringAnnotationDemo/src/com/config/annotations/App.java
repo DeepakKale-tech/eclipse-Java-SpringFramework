@@ -17,6 +17,8 @@ public class App {
 		Instructor instructor2 = (Instructor)context.getBean("inst");
 		System.out.println(instructor2.hashCode());
 		System.out.println(instructor2);
+		
+		
 	}
 
 }
