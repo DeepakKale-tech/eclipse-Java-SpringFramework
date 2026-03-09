@@ -27,8 +27,8 @@ public class UserController {
 	{
 		System.out.println(user);
 		ModelAndView mv = new ModelAndView();
-		mv.setViewName("result");
 		mv.addObject(user);
+		mv.setViewName("result");
 		
 		return mv;
 	}
