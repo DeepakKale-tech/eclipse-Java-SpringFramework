@@ -9,7 +9,7 @@ public class AppTest {
 		
 		
 		//setter method injection
-		cart.setPaymentStrategy(new PayPalPayment());
+		//cart.setPaymentStrategy(new CreditCardPayment());
 		cart.checkout(100);
 		
 
